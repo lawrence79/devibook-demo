@@ -1,0 +1,28 @@
+{
+  "name": "devibook-simple",
+  "version": "0.0.0",
+  "authors": [
+    "Lawrence Norton <lawrence@lawrencenorton.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "bootstrap": "3.0.3",
+    "tooltipster": "~3.2.2",
+    "classie": "~1.0.0",
+    "imagesloaded": "~3.1.4",
+    "retina.js": "~1.2.0"
+  }
+}
