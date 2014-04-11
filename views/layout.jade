@@ -14,17 +14,15 @@ html.no-js
     title
     meta(name='description', content='')
     meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css')
+
+    link(rel='stylesheet', href='lib/bootstrap/less/bootstrap.css')
+    link(rel='stylesheet', href='stylesheets/font-awesome.min.css')
     link(rel='stylesheet', href='stylesheets/devibook.css')
 
     //- block head
     
   body
-    //if lt IE 7
-      p.browsehappy
-        | You are using an <strong>outdated</strong> browser.
-        | Please <a href="http://browsehappy.com/">upgrade your browser</a>
-        | to improve your experience.
-
     block content
  
     //- block foot
@@ -32,9 +30,8 @@ html.no-js
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
     script.
       window.jQuery || document.write('<script src="lib/jquery/dist/jquery.min.js"><\/script>')
-    //-script(src='javascripts/plugins.js')
-    //-script(src='javascripts/script.js')
-
+    script(src='javascripts/chart.js')
+    script(src="lib/bootstrap/dist/js/bootstrap.js")
     //- Google Analytics: change UA-XXXXX-X to be your site's ID.
     //-
       script.
